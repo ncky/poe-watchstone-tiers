@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>poe watchstone tiers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div>
+            using map tier information from the league's filter information release <a href="https://www.pathofexile.com/forum/view-thread/3452297">like this</a>
+        </div>
+        <label>
+            <input type="text" id="newDataInput" placeholder="Paste new data">
+            <button onclick="loadNewData()">Load</button>
+        </label>
+        <span style="padding-inline: 2em;"></span>
+        <label>
+            <input type="checkbox" id="hideTiersUnder14" onchange="toggleTiers()"> Hide Tiers Under 14
+        </label>
+    </div>
+
+    <table id="mapTable"></table>
+    <script src="script.js"></script>
+</body>
+</html>

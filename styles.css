@@ -1,0 +1,23 @@
+/* styles.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Set a minimum width for the map name column */
+  th:first-child, td:first-child {
+    min-width: 5em;
+  }
+  
+  /* Set a minimum width for the watchstone columns */
+  th:not(:first-child), td:not(:first-child) {
+    min-width: 15em;
+  }
+  
